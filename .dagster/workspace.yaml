@@ -1,0 +1,4 @@
+load_from:
+  - python_package:
+      package_name: core_workflows
+      working_directory: ./code/

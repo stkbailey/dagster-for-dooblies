@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "is-this-thing-shit"
+version = "0.1.0"
+description = ""
+authors = ["Stephen Bailey <stkbailey@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dagit = "^0.14.17"
+dagster = "^0.14.17"
+requests = "^2.27.1"
+protobuf = "3.20.0"
+pyaml = "^21.10.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
